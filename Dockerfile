@@ -1,5 +1,6 @@
 FROM node:alpine as builder
 
+# addded a comment
 WORKDIR /app
 
 COPY package.json .
